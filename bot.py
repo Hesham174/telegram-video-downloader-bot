@@ -42,9 +42,13 @@ from telegram.ext import (
 ##############################
 
 # Replace this with your own bot token from BotFather.
-BOT_TOKEN: str = "7887617387:AAEiVhYpyFNrCPULpdqVCAsBgSiwFmhzvmE"
+# # BOT_TOKEN: str = "7887617387:AAEiVhYpyFNrCPULpdqVCAsBgSiwFmhzvmE"
 
 # Regular expression to validate HTTP(S) URLs.  Basic check to ensure user sent something that
+# BOT_TOKEN: str = "7887617387:AAHjfgyYB1_1MjvnIsGa2qs4TyAgnsiqOXM"
+# # BOT_TOKEN: str = 7887617387:AAHjfgyYB1_1MjvnIsGa2qs4TyAgnsiqOXM"
+BOT_TOKEN: str = "7887617387:AAHjfgyYB1_1MjvnIsGa2qs4TyAgnsiqOXM"
+
 # resembles a URL.  More sophisticated validation can be added as needed.
 URL_REGEX = re.compile(r"https?://\S+")
 
